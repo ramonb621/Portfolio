@@ -6,11 +6,15 @@ body{
     margin: 20px;
     flex-grow: 1;
     /* font-weight: bold; */
-    background-color: black;
+    background-color: #25577D;
     color: white;
-    /* background-image: url("https://steamuserimages-a.akamaihd.net/ugc/92729171400492838/3ADA1D00914E16BAC70A28663887BF0763F77EFF/"); */
     font-family: 'Special Elite', cursive;
-
+    background-image: url("https://steamuserimages-a.akamaihd.net/ugc/866240102632365625/0EB91710E1DC6E0BD7948CFF1BF3A98A80B54AEE/");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 h1{
     font-size: 30pt;
@@ -28,9 +32,9 @@ a:hover{
     /* color:#79BF2E; */
     color:rgb(167, 27, 17);
 }
-/* .menu{
+.menu{
     color: black;
-} */
+}
 .content{
     width: 100%;
     margin: auto;
@@ -41,9 +45,9 @@ a:hover{
     color:whitesmoke; */
     padding: 10px 0px;
     font-size: 16pt;
-    /* background-color: white;
+    background-color: white;
     border-radius: 15px;
-    color: black; */
+    background-image: url("https://steamuserimages-a.akamaihd.net/ugc/915787086993013849/E6D50C40CBD41E797EC7C07CDA90244F36A19040/");
 }
 .me{
     float: left;
@@ -58,6 +62,9 @@ a:hover{
     font-family: 'Special Elite', cursive;
     font-weight: normal;
     font-size: 15pt;
+}
+#name{
+    font-weight: bold;
 }
 .container{
     width:100%;
@@ -78,13 +85,14 @@ a:hover{
     text-align: center;
 }
 #contact-me{
+    color: black;
     font-weight: 900;
 }
 .footer{
     font-family: 'Long Cang', cursive;
     font-size: 18pt;
     text-align: center;
-    width:40%;
+    width:25%;
     padding: 0px;
     /* border-top: 1px solid; */
     position:fixed;
@@ -94,6 +102,9 @@ a:hover{
     right:0;
     flex-shrink: 0;
     z-index: 3;
+    border-radius: 5px;
+    color: white;
+    background-image: url("https://steamuserimages-a.akamaihd.net/ugc/915787086993013849/E6D50C40CBD41E797EC7C07CDA90244F36A19040/");
 }
 .description{
     width: 220px;
