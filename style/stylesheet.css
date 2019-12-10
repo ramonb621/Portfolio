@@ -1,0 +1,179 @@
+/* font-family: 'Long Cang', cursive;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Special Elite', cursive; */
+body{
+    height: 100%;
+    margin: 20px;
+    flex-grow: 1;
+    /* font-weight: bold; */
+    background-color: black;
+    color: white;
+    /* background-image: url("https://steamuserimages-a.akamaihd.net/ugc/92729171400492838/3ADA1D00914E16BAC70A28663887BF0763F77EFF/"); */
+    font-family: 'Special Elite', cursive;
+
+}
+h1{
+    font-size: 30pt;
+    /* text-shadow: 
+                -1px -1px 0 burlywood,
+                1px -1px 0 black,
+                -1px 1px 0 black,
+                1px 1px 0 black; */
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    /* color:#79BF2E; */
+    color:rgb(167, 27, 17);
+}
+/* .menu{
+    color: black;
+} */
+.content{
+    width: 100%;
+    margin: auto;
+    position: relative;
+    display: block;
+    text-align: center;
+    /* background-color: black;
+    color:whitesmoke; */
+    padding: 10px 0px;
+    font-size: 16pt;
+    /* background-color: white;
+    border-radius: 15px;
+    color: black; */
+}
+.me{
+    float: left;
+    width: 135px;
+    height: 190px;
+    margin: 5px 10px 5px 10px;
+    border: solid white 1px;
+    border-radius: 15px;
+}
+#me{
+    text-indent: 2.0em;
+    font-family: 'Special Elite', cursive;
+    font-weight: normal;
+    font-size: 15pt;
+}
+.container{
+    width:100%;
+    text-align: justify;
+}
+.projects{
+    height: 150px;
+    width: 150px;
+    display: block;
+    position: relative;
+    margin: 10px auto;
+    border: white solid 1px;
+    border-radius: 15px;
+}
+.contact-me{
+    margin-bottom: 30px;
+    font-weight: normal;
+    text-align: center;
+}
+#contact-me{
+    font-weight: 900;
+}
+.footer{
+    font-family: 'Long Cang', cursive;
+    font-size: 18pt;
+    text-align: center;
+    width:40%;
+    padding: 0px;
+    /* border-top: 1px solid; */
+    position:fixed;
+    margin: auto;
+    bottom: 0;
+    left: 0;
+    right:0;
+    flex-shrink: 0;
+    z-index: 3;
+}
+.description{
+    width: 220px;
+    height: 70px;
+    position: relative;
+    margin: 15px auto;
+    /* word-wrap: break-word; */
+    font-size: 12pt;
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+    font-weight: normal;
+}
+#project1, #project2, #project3, #project4, #project5, #project6{
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin: 40px auto 65px;
+    font-family: 'Long Cang', cursive;
+    font-size: 24pt;
+}
+/* #submit{
+    font-family: 'Quicksand', sans-serif;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 15px;
+    border:1px solid;
+}
+#submit:hover{
+    color:#79BF2E;
+} */
+@media screen and (min-width:960px){
+    h1{
+        font-size: 32pt;
+    }
+    h2{
+        font-size: 26pt;
+        margin-left: 70px;
+    }    
+    .projects{
+        height: 225px;
+        width: 225px;
+        display: block;
+        position: relative;
+        margin: 10px auto;
+        border-radius: 15px;
+    }
+    #project1, #project3, #project5{
+        float: left;
+        margin-left: 250px;
+        margin-top: 50px;
+    }
+    #project2, #project4, #project6{
+        float: right;
+        margin-right: 250px;
+        margin-top: 50px;
+    }
+
+}
+@media screen and (max-width:375px){
+    .container{
+        clear: left, right;
+        width:auto;
+        margin: auto;
+    }    
+    .projects{
+        height: 150px;
+        width: 150px;
+        display: block;
+        position: relative;
+        left: 0;
+        right: 0;
+        /* margin: 15px auto; */
+        border-radius: 15px;
+    }
+    #project1, #project3, #project5{
+
+        margin-left: 240px;
+    }
+    #project2, #project4, #project6{
+        margin-right: 260px;
+    }
+
+}
