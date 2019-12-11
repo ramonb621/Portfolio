@@ -85,7 +85,7 @@ a:hover, #name:hover{
     width: 150px;
     display: block;
     position: relative;
-    margin: 20px auto;
+    margin: 30px auto;
     border: white solid 1px;
     border-radius: 15px;
 }
@@ -120,7 +120,7 @@ a:hover, #name:hover{
     width: 220px;
     height: 90px;
     position: relative;
-    margin: 15px auto -40px;
+    margin: 15px auto;
     /* word-wrap: break-word; */
     font-size: 8pt;
     text-align: center;
