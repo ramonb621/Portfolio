@@ -171,7 +171,7 @@ a:hover, #name:hover{
     }
 
 }
-@media screen and (max-width:425px){
+@media screen and (max-width:375px){
     h2{
         margin-left: 0;
     }
