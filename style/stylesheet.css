@@ -172,7 +172,7 @@ a:hover, #name:hover{
     }
 
 }
-@media screen and (max-width:375px){
+@media screen and (max-width:425px){
     h2{
         margin-left: 0;
     }
