@@ -72,6 +72,14 @@ a:hover, #name:hover{
     border-radius: 15px;
     margin-bottom: 30px;
 }
+.container2{
+    width:100%;
+    text-align: justify;
+    /* background-color: white;
+    border: solid black 2px;
+    border-radius: 15px; */
+    margin-bottom: 30px;
+}
 .projects{
     height: 150px;
     width: 150px;
@@ -164,11 +172,11 @@ a:hover, #name:hover{
     }
 
 }
-@media screen and (max-width:425px){
+@media screen and (max-width:375px){
     h2{
         margin-left: 0;
     }
-    .container{
+    .container, .container2{
         clear: left, right;
         width:auto;
         margin: auto;
