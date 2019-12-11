@@ -171,7 +171,7 @@ a:hover, #name:hover{
     }
 
 }
-@media screen and (max-width:375px){
+@media screen and (max-width:425px){
     h2{
         margin-left: 0;
     }
@@ -191,16 +191,10 @@ a:hover, #name:hover{
         border-radius: 15px;
     }
     #project1, #project3, #project5, #project7{
-        clear: left, right;
-        width:auto;
-        margin: auto;
         margin-left: 240px;
     }
     #project2, #project4, #project6{
         margin-right: 260px;
-        clear: left, right;
-        width:auto;
-        margin: auto;
     }
     .footer{
         width: 50%;
