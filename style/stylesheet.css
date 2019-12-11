@@ -78,7 +78,6 @@ a:hover, #name:hover{
     /* background-color: white;
     border: solid black 2px;
     border-radius: 15px; */
-    margin-bottom: 30px;
 }
 .projects{
     height: 150px;
@@ -192,11 +191,16 @@ a:hover, #name:hover{
         border-radius: 15px;
     }
     #project1, #project3, #project5, #project7{
-
+        clear: left, right;
+        width:auto;
+        margin: auto;
         margin-left: 240px;
     }
     #project2, #project4, #project6{
         margin-right: 260px;
+        clear: left, right;
+        width:auto;
+        margin: auto;
     }
     .footer{
         width: 50%;
