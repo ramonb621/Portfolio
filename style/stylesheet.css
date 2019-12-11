@@ -1,39 +1,37 @@
-/* font-family: 'Long Cang', cursive;
-font-family: 'Quicksand', sans-serif;
-font-family: 'Special Elite', cursive; */
+/* font-family: 'Press Start 2P', cursive; */
 body{
     height: 100%;
     margin: 20px;
     flex-grow: 1;
     /* font-weight: bold; */
-    background-color: #25577D;
-    color: white;
-    font-family: 'Special Elite', cursive;
-    background-image: url("https://steamuserimages-a.akamaihd.net/ugc/866240102632365625/0EB91710E1DC6E0BD7948CFF1BF3A98A80B54AEE/");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+    background-color: #4A7F80;
+    color: black;
+    font-family: 'Press Start 2P', cursive;
 }
 h1{
     font-size: 30pt;
-    /* text-shadow: 
-                -1px -1px 0 burlywood,
-                1px -1px 0 black,
-                -1px 1px 0 black,
-                1px 1px 0 black; */
+    /* color: black; */
+    /* text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white; */
+}
+h1, h2, #name{
+    color: goldenrod;
+        text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
 }
 a{
-    color:white;
+    color: black;
     text-decoration: none;
 }
-a:hover{
+a:hover, #name:hover{
     /* color:#79BF2E; */
     color:rgb(167, 27, 17);
-}
-.menu{
-    color: black;
 }
 .content{
     width: 100%;
@@ -44,24 +42,24 @@ a:hover{
     /* background-color: black;
     color:whitesmoke; */
     padding: 10px 0px;
-    font-size: 16pt;
+    font-size: 14pt;
     background-color: white;
+    border: solid black 2px;
     border-radius: 15px;
-    background-image: url("https://steamuserimages-a.akamaihd.net/ugc/915787086993013849/E6D50C40CBD41E797EC7C07CDA90244F36A19040/");
 }
 .me{
     float: left;
     width: 135px;
     height: 190px;
-    margin: 5px 10px 5px 10px;
-    border: solid white 1px;
+    margin: 12px 10px 5px 10px;
+    border: solid black 1px;
     border-radius: 15px;
+    /* filter: grayscale(90%); */
 }
 #me{
-    text-indent: 2.0em;
-    font-family: 'Special Elite', cursive;
-    font-weight: normal;
-    font-size: 15pt;
+    font-size: 10pt;
+    line-height: 2;
+    padding: 10px 10px 0;
 }
 #name{
     font-weight: bold;
@@ -69,61 +67,67 @@ a:hover{
 .container{
     width:100%;
     text-align: justify;
+    background-color: white;
+    border: solid black 2px;
+    border-radius: 15px;
+    margin-bottom: 30px;
 }
 .projects{
     height: 150px;
     width: 150px;
     display: block;
     position: relative;
-    margin: 10px auto;
+    margin: 20px auto;
     border: white solid 1px;
     border-radius: 15px;
 }
 .contact-me{
-    margin-bottom: 30px;
-    font-weight: normal;
+    padding-bottom: 1px;
     text-align: center;
 }
 #contact-me{
-    color: black;
-    font-weight: 900;
+    font-weight: bold;
+    font-size: 10pt;
+}
+#contact{
+    font-size: 10pt;
 }
 .footer{
-    font-family: 'Long Cang', cursive;
-    font-size: 18pt;
+    font-size: 8pt;
+    font-weight: bold;
     text-align: center;
     width:25%;
     padding: 0px;
     /* border-top: 1px solid; */
     position:fixed;
-    margin: auto;
+    margin: 0 auto;
+    padding: 0;
     bottom: 0;
     left: 0;
     right:0;
     flex-shrink: 0;
     z-index: 3;
-    border-radius: 5px;
-    color: white;
-    background-image: url("https://steamuserimages-a.akamaihd.net/ugc/915787086993013849/E6D50C40CBD41E797EC7C07CDA90244F36A19040/");
 }
 .description{
     width: 220px;
-    height: 70px;
+    height: 90px;
     position: relative;
-    margin: 15px auto;
+    margin: 15px auto -40px;
     /* word-wrap: break-word; */
-    font-size: 12pt;
+    font-size: 8pt;
     text-align: center;
-    font-family: 'Special Elite', cursive;
-    font-weight: normal;
+    line-height: 1.5;
+    background-color: white;
+    padding: 5px 0px 25px;
+    border: solid black 1px;
+    border-radius: 15px;
 }
-#project1, #project2, #project3, #project4, #project5, #project6{
+#project1, #project2, #project3, #project4, #project5, #project6, #project7{
     width: auto;
     height: auto;
     text-align: center;
     margin: 40px auto 65px;
-    font-family: 'Long Cang', cursive;
-    font-size: 24pt;
+    font-size: 10pt;
 }
 /* #submit{
     font-family: 'Quicksand', sans-serif;
@@ -135,14 +139,11 @@ a:hover{
 #submit:hover{
     color:#79BF2E;
 } */
-@media screen and (min-width:960px){
-    h1{
-        font-size: 32pt;
-    }
+@media screen and (min-width:960px){ 
     h2{
-        font-size: 26pt;
+        font-size: 18pt;
         margin-left: 70px;
-    }    
+    }
     .projects{
         height: 225px;
         width: 225px;
@@ -151,7 +152,7 @@ a:hover{
         margin: 10px auto;
         border-radius: 15px;
     }
-    #project1, #project3, #project5{
+    #project1, #project3, #project5, #project7{
         float: left;
         margin-left: 250px;
         margin-top: 50px;
@@ -164,6 +165,9 @@ a:hover{
 
 }
 @media screen and (max-width:375px){
+    h2{
+        margin-left: 0;
+    }
     .container{
         clear: left, right;
         width:auto;
@@ -179,12 +183,15 @@ a:hover{
         /* margin: 15px auto; */
         border-radius: 15px;
     }
-    #project1, #project3, #project5{
+    #project1, #project3, #project5, #project7{
 
         margin-left: 240px;
     }
     #project2, #project4, #project6{
         margin-right: 260px;
+    }
+    .footer{
+        width: 50%;
     }
 
 }
