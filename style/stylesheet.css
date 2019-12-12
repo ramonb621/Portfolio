@@ -231,9 +231,15 @@ a:hover, #name:hover{
         margin-left: 0;
     }
     .container, .container2{
-        clear: left, right;
+        clear: both;
         width:auto;
         margin: auto;
+    }
+    .container{
+        width: 85%;
+    }
+    .resume{
+        width: 95%;
     } 
     .contact-me{
         display: inline-block;
