@@ -236,10 +236,10 @@ a:hover, #name:hover{
         margin: auto;
     }
     .container{
-        width: 85%;
+        width: 100%;
     }
     .resume{
-        width: 95%;
+        width: 50%;
     } 
     .contact-me{
         display: inline-block;
