@@ -236,15 +236,15 @@ a:hover, #name:hover{
         margin: auto;
     }
     .container{
-        width: 100%;
+        width: 90%;
     }
     .resume{
-        width: 50%;
+        width: 95%;
     } 
     .contact-me{
         display: inline-block;
         position: relative;
-        margin-left: 7%;
+        margin-left: 10%;
         padding-bottom: 1px;
         text-align: justify;
     }   
