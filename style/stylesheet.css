@@ -226,7 +226,7 @@ a:hover, #name:hover{
         margin-top: 30px;
     } */
 }
-@media screen and (min-width:425px) and (max-width:500px){
+@media screen and (min-width:425px){
     h2{
         margin-left: 0;
     }
