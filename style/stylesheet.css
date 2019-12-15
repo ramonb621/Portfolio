@@ -192,9 +192,9 @@ a:hover, #name:hover{
     .resume{
         width: 95%;
     } 
-    /* .contact-me{
-        margin: 0px auto;
-    }    */
+    .contact-me{
+        text-align: left;
+    }   
     .projects{
         height: 150px;
         width: 150px;
