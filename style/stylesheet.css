@@ -196,6 +196,7 @@ a:hover, #name:hover{
         display: inline-block;
         text-align: left;
         margin: 10px auto 0px;
+        padding-bottom: 0px;
     }   
     .projects{
         height: 150px;
