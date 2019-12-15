@@ -5,34 +5,21 @@ body{
     height: 100%;
     margin: 20px;
     flex-grow: 1;
-    /* font-weight: bold; */
     background-color: silver;
     color: black;
 }
 h1{
     font-size: 30pt;
-    /* color: black; */
-    /* text-shadow:
-    -1px -1px 0 white,
-    1px -1px 0 white,
-    -1px 1px 0 white,
-    1px 1px 0 white; */
 }
 h1, h2{
     font-family: 'Special Elite', cursive;
     color: black;
-        /* text-shadow:
-    -1px -1px 0 black,
-    1px -1px 0 black,
-    -1px 1px 0 black,
-    1px 1px 0 black; */
 }
 a{
     color: black;
     text-decoration: none;
 }
 a:hover, #name:hover{
-    /* color:#79BF2E; */
     color:rgb(167, 27, 17);
     font-weight: bold;
 }
@@ -42,8 +29,6 @@ a:hover, #name:hover{
     position: relative;
     display: block;
     text-align: center;
-    /* background-color: black;
-    color:whitesmoke; */
     padding: 10px 0px;
     font-size: 14pt;
     background-color: white;
@@ -88,14 +73,10 @@ a:hover, #name:hover{
     border: solid black 2px;
     border-radius: 15px;
     margin: 0px auto 30px;
-    /* margin-bottom: 30px; */
 }
 .container2{
     width:100%;
     text-align: justify;
-    /* background-color: white;
-    border: solid black 2px;
-    border-radius: 15px; */
 }
 .projects{
     height: 150px;
@@ -127,7 +108,6 @@ a:hover, #name:hover{
     text-align: center;
     width:25%;
     padding: 0px;
-    /* border-top: 1px solid; */
     position:fixed;
     margin: 0 auto;
     padding: 0;
@@ -156,24 +136,11 @@ a:hover, #name:hover{
     margin: 25px auto 0px;
     font-size: 10pt;
 }
-/* #submit{
-    font-family: 'Quicksand', sans-serif;
-    background-color: black;
-    color: whitesmoke;
-    border-radius: 15px;
-    border:1px solid;
-}
-#submit:hover{
-    color:#79BF2E;
-} */
 @media screen and (min-width:960px){ 
     h2{
         font-size: 18pt;
         margin-left: 70px;
     }
-    /* .contact-me{
-        margin-left: 25%;
-    } */
     .projects{
         height: 225px;
         width: 225px;
@@ -194,18 +161,6 @@ a:hover, #name:hover{
     }
 
 }
-/* @media script and (min-width:700px){
-    #project1, #project3, #project5, #project7{
-        float: left;
-        margin-left: 250px;
-        margin-top: 50px;
-    }
-    #project2, #project4, #project6{
-        float: right;
-        margin-right: 250px;
-        margin-top: 50px;
-    }
-} */
 @media screen and (min-width:500px) and (max-width:900px){
     .contact-me{
         margin-left: 25%;
@@ -216,14 +171,6 @@ a:hover, #name:hover{
     .resume{
         width: 95%;
     }
-    /* #project1, #project3, #project5, #project7{
-        margin-right: 260px;
-        margin-top: 20px;
-    }
-    #project2, #project4, #project6{
-        margin-left: 260px;
-        margin-top: 30px;
-    } */
 }
 @media screen and (max-width:425px){
     h2{
@@ -241,12 +188,11 @@ a:hover, #name:hover{
         width: 95%;
     } 
     /* .contact-me{
-        display: inline-block;
-        position: relative;
-        margin-left: 25%;
-        padding-bottom: 1px;
-        text-align: justify;
+        margin: 0px auto;
     }    */
+    .contact-me{
+        margin-left: 25%;
+    }
     .projects{
         height: 150px;
         width: 150px;
