@@ -244,7 +244,7 @@ a:hover, #name:hover{
     .contact-me{
         display: inline-block;
         position: relative;
-        margin-left: 0%;
+        margin: auto;
         padding-bottom: 1px;
         text-align: justify;
     }   
