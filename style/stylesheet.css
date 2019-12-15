@@ -107,11 +107,11 @@ a:hover, #name:hover{
     border-radius: 15px;
 }
 .contact-me{
-    display: inline-block;
+    display: block;
     position: relative;
-    margin-left: 15%;
+    margin: 0px auto;
     padding-bottom: 1px;
-    text-align: justify;
+    text-align: center;
 }
 #contact-me{
     font-family: 'Crimson Text', serif;
@@ -171,9 +171,9 @@ a:hover, #name:hover{
         font-size: 18pt;
         margin-left: 70px;
     }
-    .contact-me{
+    /* .contact-me{
         margin-left: 25%;
-    }
+    } */
     .projects{
         height: 225px;
         width: 225px;
@@ -240,13 +240,13 @@ a:hover, #name:hover{
     .resume{
         width: 95%;
     } 
-    .contact-me{
+    /* .contact-me{
         display: inline-block;
         position: relative;
         margin-left: 25%;
         padding-bottom: 1px;
         text-align: justify;
-    }   
+    }    */
     .projects{
         height: 150px;
         width: 150px;
