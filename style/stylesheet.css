@@ -194,6 +194,7 @@ a:hover, #name:hover{
     } 
     .contact-me{
         text-align: left;
+        margin: 10px auto 0px;
     }   
     .projects{
         height: 150px;
