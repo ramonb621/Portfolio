@@ -42,13 +42,13 @@ a:hover, #name:hover{
     margin: 12px 10px 5px 10px;
     border: solid black 1px;
     border-radius: 15px;
-    /* filter: grayscale(90%); */
+    filter: grayscale(80%);
 }
 #me{
     font-family: 'Prata', serif;
     font-size: 10pt;
     line-height: 1.5;
-    padding: 10px 10px 0;
+    padding: 10px 10px 26px;
 }
 .resume{
     display: block;
@@ -161,9 +161,14 @@ a:hover, #name:hover{
     }
 
 }
-@media screen and (min-width:500px) and (max-width:900px){
+@media screen and (min-width:500px) and (max-width:940px){
+    #me{
+        padding-bottom: 0px;
+    }
     .contact-me{
-        margin-left: 25%;
+        display: inline-block;
+        text-align: left;
+        margin: 0px auto;
     }
     .container{
         width: 85%;
@@ -187,10 +192,9 @@ a:hover, #name:hover{
     .resume{
         width: 95%;
     } 
-    .contact-me{
-        display: inline-block;
+    /* .contact-me{
         margin: 0px auto;
-    }   
+    }    */
     .projects{
         height: 150px;
         width: 150px;
