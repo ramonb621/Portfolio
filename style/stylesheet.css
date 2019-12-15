@@ -187,12 +187,10 @@ a:hover, #name:hover{
     .resume{
         width: 95%;
     } 
-    /* .contact-me{
-        margin: 0px auto;
-    }    */
     .contact-me{
-        margin-left: 25%;
-    }
+        display: inline-block;
+        margin: 0px auto;
+    }   
     .projects{
         height: 150px;
         width: 150px;
