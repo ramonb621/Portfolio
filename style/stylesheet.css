@@ -243,7 +243,7 @@ a:hover, #name:hover{
     .contact-me{
         display: inline-block;
         position: relative;
-        margin: 0px auto;
+        margin-left: 25%;
         padding-bottom: 1px;
         text-align: justify;
     }   
