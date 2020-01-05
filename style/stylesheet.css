@@ -56,6 +56,7 @@ a:hover, #name:hover{
     margin: auto;
     padding: 10px 10px; 
     filter: grayscale(100%);
+    border-radius: 15px;
 }
 #name{
     font-family: 'Crimson Text', serif;
