@@ -3,13 +3,16 @@ font-family: 'Crimson Text', serif;
 font-family: 'Prata', serif; */
 body {
     height: 100%;
-    margin: 20px;
+    margin: 0px;
     flex-grow: 1;
-    background-color: silver;
+    background-color: #5C9192;
     color: black;
 }
 h1 {
     font-size: 30pt;
+}
+h2 {
+    margin-left: 20px;
 }
 h1, h2 {
     font-family: 'Special Elite', cursive;
@@ -20,20 +23,21 @@ a{
     text-decoration: none;
 }
 a:hover, #name:hover {
-    color:rgb(167, 27, 17);
+    color:white;
     font-weight: bold;
 }
+#contact:hover {
+    color: rgb(230, 51, 51);
+    font-weight: normal;
+}
 .content {
-    width: 100%;
     margin: auto;
     position: relative;
     display: block;
     text-align: center;
     padding: 10px 0px;
     font-size: 14pt;
-    background-color: white;
-    border: solid black 2px;
-    border-radius: 15px;
+    background-color: #4A7F80;
 }
 .me {
     float: left;
@@ -42,21 +46,12 @@ a:hover, #name:hover {
     margin: 12px 10px 5px 10px;
     border: solid black 1px;
     border-radius: 15px;
-    filter: grayscale(80%);
 }
 #me {
     font-family: 'Prata', serif;
     font-size: 10pt;
     line-height: 1.5;
     padding: 10px 10px 26px;
-}
-.resume {
-    display: block;
-    position: relative;
-    margin: auto;
-    padding: 10px 10px; 
-    filter: grayscale(100%);
-    border-radius: 15px;
 }
 #name {
     font-family: 'Crimson Text', serif;
@@ -167,15 +162,11 @@ a:hover, #name:hover {
         padding-bottom: 0px;
     }
     .contact-me {
-        display: block;
         text-align: center;
         margin: 0px auto;
     }
     .container {
         width: 85%;
-    }
-    .resume {
-        width: 95%;
     }
 }
 @media screen and (max-width:425px) {
@@ -190,9 +181,6 @@ a:hover, #name:hover {
     .container {
         width: 90%;
     }
-    .resume {
-        width: 95%;
-    } 
     .contact-me {
         display: inline-block;
         text-align: left;
@@ -206,7 +194,6 @@ a:hover, #name:hover {
         position: relative;
         left: 0;
         right: 0;
-        /* margin: 15px auto; */
         border-radius: 15px;
     }
     #project1, #project3, #project5, #project7 {
