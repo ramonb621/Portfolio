@@ -1,17 +1,17 @@
 /* font-family: 'Special Elite', cursive;
 font-family: 'Crimson Text', serif;
 font-family: 'Prata', serif; */
-body{
+body {
     height: 100%;
     margin: 20px;
     flex-grow: 1;
     background-color: silver;
     color: black;
 }
-h1{
+h1 {
     font-size: 30pt;
 }
-h1, h2{
+h1, h2 {
     font-family: 'Special Elite', cursive;
     color: black;
 }
@@ -19,11 +19,11 @@ a{
     color: black;
     text-decoration: none;
 }
-a:hover, #name:hover{
+a:hover, #name:hover {
     color:rgb(167, 27, 17);
     font-weight: bold;
 }
-.content{
+.content {
     width: 100%;
     margin: auto;
     position: relative;
@@ -35,7 +35,7 @@ a:hover, #name:hover{
     border: solid black 2px;
     border-radius: 15px;
 }
-.me{
+.me {
     float: left;
     width: 135px;
     height: 190px;
@@ -44,13 +44,13 @@ a:hover, #name:hover{
     border-radius: 15px;
     filter: grayscale(80%);
 }
-#me{
+#me {
     font-family: 'Prata', serif;
     font-size: 10pt;
     line-height: 1.5;
     padding: 10px 10px 26px;
 }
-.resume{
+.resume {
     display: block;
     position: relative;
     margin: auto;
@@ -58,16 +58,16 @@ a:hover, #name:hover{
     filter: grayscale(100%);
     border-radius: 15px;
 }
-#name{
+#name {
     font-family: 'Crimson Text', serif;
     font-size: 14pt;
     font-weight: bold;
 }
-.menu, .footer{
+.menu, .footer {
     font-family: 'Crimson Text', serif;
     font-weight: bold;
 }
-.container{
+.container {
     width:65%;
     text-align: justify;
     background-color: white;
@@ -75,11 +75,11 @@ a:hover, #name:hover{
     border-radius: 15px;
     margin: 0px auto 30px;
 }
-.container2{
+.container2 {
     width:100%;
     text-align: justify;
 }
-.projects{
+.projects {
     height: 150px;
     width: 150px;
     display: block;
@@ -88,23 +88,23 @@ a:hover, #name:hover{
     border: black solid 1px;
     border-radius: 15px;
 }
-.contact-me{
+.contact-me {
     display: block;
     position: relative;
     margin: 0px auto;
     padding-bottom: 1px;
     text-align: center;
 }
-#contact-me{
+#contact-me {
     font-family: 'Crimson Text', serif;
     font-weight: bold;
     font-size: 12pt;
 }
-#contact{
+#contact {
     font-family: 'Prata', serif;
     font-size: 10pt;
 }
-.footer{
+.footer {
     font-size: 10pt;
     text-align: center;
     width:25%;
@@ -118,7 +118,7 @@ a:hover, #name:hover{
     flex-shrink: 0;
     z-index: 3;
 }
-.description{
+.description {
     width: 220px;
     height: 90px;
     position: relative;
@@ -130,19 +130,19 @@ a:hover, #name:hover{
     line-height: 1.5;
     padding: 5px 0px 25px;
 }
-#project1, #project2, #project3, #project4, #project5, #project6, #project7{
+#project1, #project2, #project3, #project4, #project5, #project6, #project7, #project8 {
     width: auto;
     height: auto;
     text-align: center;
     margin: 25px auto 0px;
     font-size: 10pt;
 }
-@media screen and (min-width:960px){ 
-    h2{
+@media screen and (min-width:960px) { 
+    h2 {
         font-size: 18pt;
         margin-left: 70px;
     }
-    .projects{
+    .projects {
         height: 225px;
         width: 225px;
         display: block;
@@ -150,56 +150,56 @@ a:hover, #name:hover{
         margin: 10px auto;
         border-radius: 15px;
     }
-    #project1, #project3, #project5, #project7{
+    #project1, #project3, #project5, #project7 {
         float: left;
         margin-left: 250px;
         margin-top: 50px;
     }
-    #project2, #project4, #project6{
+    #project2, #project4, #project6, #project8 {
         float: right;
         margin-right: 250px;
         margin-top: 50px;
     }
 
 }
-@media screen and (min-width:500px) and (max-width:940px){
-    #me{
+@media screen and (min-width:500px) and (max-width:940px) {
+    #me {
         padding-bottom: 0px;
     }
-    .contact-me{
+    .contact-me {
         display: inline-block;
         text-align: left;
         margin: 0px auto;
     }
-    .container{
+    .container {
         width: 85%;
     }
-    .resume{
+    .resume {
         width: 95%;
     }
 }
-@media screen and (max-width:425px){
-    h2{
+@media screen and (max-width:425px) {
+    h2 {
         margin-left: 0;
     }
-    .container, .container2{
+    .container, .container2 {
         clear: both;
         width:auto;
         margin: auto;
     }
-    .container{
+    .container {
         width: 90%;
     }
-    .resume{
+    .resume {
         width: 95%;
     } 
-    .contact-me{
+    .contact-me {
         display: inline-block;
         text-align: left;
         margin: 15px auto 0px;
         padding-bottom: 0px;
     }   
-    .projects{
+    .projects {
         height: 150px;
         width: 150px;
         display: block;
@@ -209,10 +209,10 @@ a:hover, #name:hover{
         /* margin: 15px auto; */
         border-radius: 15px;
     }
-    #project1, #project3, #project5, #project7{
+    #project1, #project3, #project5, #project7 {
         margin-left: 5px;
     }
-    #project2, #project4, #project6{
+    #project2, #project4, #project6, #project8 {
         margin-right: 0px;
     }
     .footer{
