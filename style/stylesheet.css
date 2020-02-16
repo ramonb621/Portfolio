@@ -69,7 +69,7 @@ a:hover, #name:hover {
 }
 .container {
     width:65%;
-    text-align: justify;
+    text-align: left;
     background-color: white;
     border: solid black 2px;
     border-radius: 15px;
@@ -89,9 +89,9 @@ a:hover, #name:hover {
     border-radius: 15px;
 }
 .contact-me {
-    display: block;
+    display: inline-block;
     position: relative;
-    margin: 0px auto;
+    margin: 0px 25% 0px;
     padding-bottom: 1px;
     text-align: center;
 }
@@ -167,8 +167,8 @@ a:hover, #name:hover {
         padding-bottom: 0px;
     }
     .contact-me {
-        display: inline-block;
-        text-align: left;
+        display: block;
+        text-align: center;
         margin: 0px auto;
     }
     .container {
