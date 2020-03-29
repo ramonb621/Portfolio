@@ -8,6 +8,21 @@ body {
     background-color: #5C9192;
     color: black;
 }
+#carouselCaptions{
+    display: block;
+    position: relative;
+    margin: 12% auto 12%;
+    width: 50%;
+}
+.d-block.w-100 {
+    opacity: 0.7;
+}
+#dropdownMenu {
+    font-weight: bold;
+}
+.dropdown {
+    font-family: 'Prata', serif;
+}
 h1 {
     font-size: 30pt;
 }
@@ -15,8 +30,13 @@ h2 {
     margin-left: 20px;
 }
 h1, h2 {
-    font-family: 'Special Elite', cursive;
+    /* font-family: 'Special Elite', cursive; */
+    font-family: 'Prata', serif;
+    font-weight: bold;
     color: black;
+}
+.about {
+    margin-left: 0;
 }
 a{
     color: black;
@@ -35,9 +55,16 @@ a:hover, #name:hover {
     position: relative;
     display: block;
     text-align: center;
-    padding: 10px 0px;
+    padding: 20px 0px 10px;
     font-size: 14pt;
     background-color: #4A7F80;
+}
+.btn.btn-dark {
+    display: block;
+    position: relative;
+    width: 25%;
+    margin: auto;
+    margin-bottom: 30px;
 }
 .me {
     float: left;
@@ -46,6 +73,10 @@ a:hover, #name:hover {
     margin: 12px 10px 5px 10px;
     border: solid black 1px;
     border-radius: 15px;
+}
+.fas, .fab {
+    font-size: 12pt;
+    text-indent: 5px;
 }
 #me {
     font-family: 'Prata', serif;
@@ -61,14 +92,29 @@ a:hover, #name:hover {
 .menu, .footer {
     font-family: 'Crimson Text', serif;
     font-weight: bold;
+    color: black;
+}
+.aboutMe, .container {
+    margin-top: 25px;
 }
 .container {
     width:65%;
     text-align: left;
-    background-color: white;
-    border: solid black 2px;
+    /* background-color: white; */
+    /* border: solid black 2px; */
     border-radius: 15px;
     margin: 0px auto 30px;
+}
+.skills {
+    font-family: 'Prata', serif;
+    font-size: 10pt;
+}
+#skills {
+    font-size: 14pt;
+    font-weight: bold;
+}
+td {
+    width: 100px;
 }
 .container2 {
     width:100%;
@@ -83,13 +129,6 @@ a:hover, #name:hover {
     border: black solid 1px;
     border-radius: 15px;
 }
-.contact-me {
-    display: inline-block;
-    position: relative;
-    margin: 0px 25% 0px;
-    padding-bottom: 1px;
-    text-align: center;
-}
 #contact-me {
     font-family: 'Crimson Text', serif;
     font-weight: bold;
@@ -98,6 +137,7 @@ a:hover, #name:hover {
 #contact {
     font-family: 'Prata', serif;
     font-size: 10pt;
+    color: black;
 }
 .footer {
     font-size: 10pt;
