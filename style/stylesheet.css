@@ -222,7 +222,7 @@ td {
 }
 @media screen and (max-width:425px) {
     .heading {
-        margin-left: 10px;
+        margin-left: 0;
     }
     .container, .container2 {
         clear: both;
