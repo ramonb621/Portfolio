@@ -121,9 +121,6 @@ a{
 .container {
     width:65%;
     text-align: left;
-    /* background-color: white; */
-    /* border: solid black 2px; */
-    border-radius: 15px;
     margin: 0px auto 30px;
 }
 .skills {
@@ -153,13 +150,7 @@ td {
     border: black solid 1px;
     border-radius: 15px;
 }
-#contact-me {
-    font-family: 'Crimson Text', serif;
-    font-weight: bold;
-    font-size: 12pt;
-}
 #contact {
-    font-family: 'Prata', serif;
     font-size: 10pt;
     color: black;
 }
@@ -186,6 +177,7 @@ td {
     text-align: center;
     line-height: 1.5;
     padding: 5px 0px 25px;
+    color: black;
 }
 #project1, #project2, #project3, #project4, #project5, #project6, #project7, #project8 {
     width: auto;
@@ -222,10 +214,6 @@ td {
 @media screen and (min-width:500px) and (max-width:940px) {
     #me {
         padding-bottom: 0px;
-    }
-    .contact-me {
-        text-align: center;
-        margin: 0px auto;
     }
     .container {
         width: 85%;
