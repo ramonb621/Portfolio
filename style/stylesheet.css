@@ -135,7 +135,8 @@ a{
     transform: rotate(2deg);
 }
 td {
-    width: 100px;
+    width: 110px;
+    text-align: center;
 }
 .container2 {
     width:100%;
