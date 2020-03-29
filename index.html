@@ -19,13 +19,6 @@
         
             <h1>Ramon Barajas</h1>
                     <!--Links to other portfolio pages-->
-                    <!-- <div class="menu"> -->
-                        
-                        <!-- <a class="menu" href="index.html">Home</a> |
-                        <a class="menu" href="portfolio.html">Portfolio</a> -->
-                        <!-- <a class="menu" href="./images/devres.pdf" target="_blank" download="ramonResume">Resume</a> -->
-                        
-                    <!-- </div> -->
             <div class="dropdown">
                 <button class="btn dropdown-toggle" type="button" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Menu
@@ -33,19 +26,24 @@
                 <div class="dropdown-menu" aria-labelledby="dropdownMenu">
                     <a class="dropdown-item" href="index.html">Home</a>
                     <a class="dropdown-item" href="portfolio.html">Portfolio</a>
+                    <a class="dropdown-item" role="button" href="./images/devres.pdf" target="_blank" download="ramonResume">Download Resume</a>
                 </div>
             </div>
         </div>
 
         <br>
 
-        <h2 class="aboutMe">About Me</h2>
+        <h2 class="heading">About Me</h2>
 
-            <div class="container">
-                    <img class="me" src="images/IMG_2154.jpg" alt="Me...">
+      <div class="mainCont">
+          <div class="container">
+                  <img class="me" src="images/IMG_2154.jpg" alt="Me...">
+              
                 <div id="me">
+
                     <p>Hello world, I'm Ramon. I'm a developer from Los Angeles with a background in emergency medical services. I'm a graduate of the UCLA Extension Coding Bootcamp and currently I'm enrolled in classes at Rio Hondo College pursuing a degree in computer science.  When I am not coding I am playing music, looking up new technologies, or cooking with friends.</p>
                 </div>
+
                 <div class="skills"><span id="skills">Technical Skills</span>
                   <table>
                     <tbody>
@@ -71,48 +69,57 @@
                     </tbody>
                   </table>
                 </div>
-            </div>
+          </div>
+      </div>
 
+          <div class="carouselCont">
             <div id="carouselCaptions" class="carousel slide" data-ride="carousel">
-                <h2 class="about">Projects</h2>
-                <!-- <ol class="carousel-indicators">
-                  <li data-target="#carouselCaptions" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselCaptions" data-slide-to="1"></li>
-                  <li data-target="#carouselCaptions" data-slide-to="2"></li>
-                </ol> -->
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <h5 class="project">AppRx</h5>
-                    <img src="images/apprx.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                    </div>
-                    <p class="project">Drug reference / medication reconcilliation application.</p>
-                  </div>
-                  <div class="carousel-item">
-                    <h5 class="project">Toby</h5>
-                    <img src="images/toby.png" class="d-block w-100" alt="..." >
-                    <div class="carousel-caption d-none d-md-block">
-                    </div>
-                    <p class="project">B2B HR application for businesses on a budget.</p>
-                  </div>
-                  <div class="carousel-item">
-                    <h5 class="project">HelpFull</h5>
-                    <img src="images/Helpfull.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                    </div>
-                    <p class="project">Business registration to aid in disaster relief in our communities.</p>
+              <h2 class="about">Projects</h2>
+              <!-- <ol class="carousel-indicators">
+                <li data-target="#carouselCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselCaptions" data-slide-to="2"></li>
+              </ol> -->
+              <div class="carousel-inner" >
+
+                <div class="carousel-item active">
+                  <h5 class="project">AppRx</h5>
+                  <a href="https://apprx.herokuapp.com/" target="_blank"><img src="images/apprx.png" class="d-block w-100" alt="..."></a>
+                  <div class="carousel-caption d-none d-md-block">
                   </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselCaptions" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselCaptions" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
+
+                <div class="carousel-item">
+                  <h5 class="project">Toby</h5>
+                  <a href="https://toby-mgmt.herokuapp.com/" target="_blank"><img src="images/toby.png" class="d-block w-100" alt="..." ></a>
+                  <div class="carousel-caption d-none d-md-block">
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <h5 class="project">HelpFull</h5>
+                  <a href="https://mkdr-project2.herokuapp.com/" target="_blank"><img src="images/Helpfull.png" class="d-block w-100" alt="..."></a>
+                  <div class="carousel-caption d-none d-md-block">
+                  </div>
+                </div>
+
+              </div>
+
+              <a class="carousel-control-prev" href="#carouselCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+
+              <a class="carousel-control-next" href="#carouselCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+
             </div>
-            <a class="btn btn-dark" role="button" href="./images/devres.pdf" target="_blank" download="ramonResume">Download Resume</a>
+
+          </div>
+
+          <a class="btn btn-dark" role="button" href="./images/devres.pdf" target="_blank" download="ramonResume">Download Resume</a>
     
     
     <footer class="footer">

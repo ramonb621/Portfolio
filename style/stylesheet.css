@@ -8,14 +8,27 @@ body {
     background-color: #5C9192;
     color: black;
 }
-#carouselCaptions{
+.carouselCont {
+    width: 100%;
+    background-color: #DFFCFD;
+    transform: rotate(2deg);
+}
+#carouselCaptions {
     display: block;
     position: relative;
-    margin: 12% auto 12%;
+    margin: 12% auto 10%;
+    padding: 30px 0px 40px;
     width: 50%;
+    transform: rotate(-2deg);
+}
+.project {
+    font-family: 'Prata', serif;
 }
 .d-block.w-100 {
-    opacity: 0.7;
+    opacity: 1;
+}
+.d-block.w-100:hover {
+    opacity: 0.8;
 }
 #dropdownMenu {
     font-weight: bold;
@@ -42,10 +55,6 @@ a{
     color: black;
     text-decoration: none;
 }
-a:hover, #name:hover {
-    color:white;
-    font-weight: bold;
-}
 #contact:hover {
     color: rgb(230, 51, 51);
     font-weight: normal;
@@ -64,15 +73,18 @@ a:hover, #name:hover {
     position: relative;
     width: 25%;
     margin: auto;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 .me {
+    position: relative;
     float: left;
     width: 135px;
     height: 190px;
     margin: 12px 10px 5px 10px;
     border: solid black 1px;
     border-radius: 15px;
+    transform: rotate(2deg);
+    z-index: 1;
 }
 .fas, .fab {
     font-size: 12pt;
@@ -83,19 +95,28 @@ a:hover, #name:hover {
     font-size: 10pt;
     line-height: 1.5;
     padding: 10px 10px 26px;
+    transform: rotate(2deg);
 }
 #name {
     font-family: 'Crimson Text', serif;
     font-size: 14pt;
     font-weight: bold;
-}
-.menu, .footer {
-    font-family: 'Crimson Text', serif;
-    font-weight: bold;
     color: black;
 }
-.aboutMe, .container {
+#name:hover {
+    color: rgb(230, 51, 51);
+    font-weight: bold;
+    text-decoration: none;
+}
+.heading, .container {
     margin-top: 25px;
+}
+.mainCont {
+    position: relative;
+    width: 100%;
+    background-color: #92FBFC;
+    transform: rotate(-2deg);
+    padding: 30px;
 }
 .container {
     width:65%;
@@ -106,12 +127,15 @@ a:hover, #name:hover {
     margin: 0px auto 30px;
 }
 .skills {
+    position: relative;
     font-family: 'Prata', serif;
     font-size: 10pt;
+    transform: rotate(2deg);
 }
 #skills {
     font-size: 14pt;
     font-weight: bold;
+    transform: rotate(2deg);
 }
 td {
     width: 100px;
@@ -143,10 +167,8 @@ td {
     font-size: 10pt;
     text-align: center;
     width:25%;
-    padding: 0px;
     position:fixed;
     margin: 0 auto;
-    padding: 0;
     bottom: 0;
     left: 0;
     right:0;
@@ -169,7 +191,7 @@ td {
     width: auto;
     height: auto;
     text-align: center;
-    margin: 25px auto 0px;
+    margin: 25px auto 40px;
     font-size: 10pt;
 }
 @media screen and (min-width:960px) { 
