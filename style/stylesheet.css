@@ -89,7 +89,7 @@ a{
 }
 .fas, .fab {
     font-size: 14pt;
-    text-indent: 10px;
+    padding: 0px 5px;
 }
 #me {
     font-family: 'Prata', serif;
@@ -223,10 +223,13 @@ td {
         width: 85%;
     }
     .mainCont, .carouselCont {
-        width: 96%;
+        width: 95%;
     }
     #carouselCaptions {
         width: 80%;
+    }
+    .fas, .fab {
+        font-size: 16pt;
     }
 }
 @media screen and (max-width:425px) {
@@ -265,5 +268,7 @@ td {
     .footer{
         width: 50%;
     }
-
+    .fas, .fab {
+        font-size: 16pt;
+    }
 }
