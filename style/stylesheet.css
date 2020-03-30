@@ -245,7 +245,7 @@ td {
         width: 90%;
     }
     .mainCont, .carouselCont {
-        width: 96%;
+        width: 94%;
     }
     #carouselCaptions {
         width: 80%;
@@ -264,9 +264,6 @@ td {
     }
     #project2, #project4, #project6, #project8 {
         margin-right: 0px;
-    }
-    .footer{
-        width: 50%;
     }
     .fas, .fab {
         font-size: 16pt;
