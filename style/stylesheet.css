@@ -216,7 +216,8 @@ td {
 }
 @media screen and (min-width:445px) and (max-width:940px) {
     #me {
-        padding-bottom: 0px;
+        padding: 15px 0px 25px 10px;
+        /* padding-bottom: 0px; */
     }
     .container {
         width: 85%;
