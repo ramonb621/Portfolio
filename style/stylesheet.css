@@ -37,6 +37,7 @@ body {
     margin-top: 10px;
     color: black;
     font-family: 'Prata', serif;
+    font-size: 14pt;
     z-index: 2;
 }
 .link:hover {
@@ -44,14 +45,18 @@ body {
     text-decoration: none;
     font-weight: bold;
 }
-h1 {
+.main {
+    font-family: 'Prata', serif;
     text-align: left;
+    font-size: 36pt;
     font-weight: bold;
 }
-h1, h2 {
+#about, .about {
+    font-size: 32pt;
     font-family: 'Prata', serif;
+}
+.main, #about {
     margin-left: 20px;
-    font-weight: bold;
     color: black;
 }
 .hFollow {
@@ -103,7 +108,7 @@ h1, h2 {
     display: block;
     text-align: center;
     padding: 20px 0px 0px;
-    font-size: 14pt;
+    font-size: 16pt;
     background-color: #4A7F80;
     z-index: 15;
 }
@@ -119,12 +124,12 @@ h1, h2 {
     z-index: 1;
 }
 .fas, .fab {
-    font-size: 14pt;
+    font-size: 18pt;
     padding: 0px 5px;
 }
 #me {
     font-family: 'Prata', serif;
-    font-size: 10pt;
+    font-size: 12pt;
     line-height: 1.5;
     padding: 10px 10px 26px;
     transform: rotate(2deg);
@@ -148,7 +153,7 @@ h1, h2 {
 .skills {
     position: relative;
     font-family: 'Prata', serif;
-    font-size: 10pt;
+    font-size: 12pt;
     transform: rotate(2deg);
 }
 #skills {
@@ -176,17 +181,25 @@ td {
     flex-shrink: 0;
     z-index: 3;
 }
+.c-right {
+    width: 90%;
+    margin: 0px 5%;
+    text-align: center;
+    font-size: 14pt;
+    border-top: 2px solid grey;
+    padding: 10px 0px;
+}
 .description {
-    width: 220px;
-    height: 90px;
+    width: 65%;
+    height: auto;
     position: relative;
     margin: 5px auto 0px;
     font-family: 'Prata', serif;
-    font-size: 10pt;
+    font-size: 12pt;
     color: black;
 }
 @media screen and (min-width:960px) { 
-    h2 {
+    #about {
         margin-left: 70px;
     }
 }
