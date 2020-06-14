@@ -26,55 +26,86 @@ body {
     font-family: 'Prata', serif;
 }
 .d-block.w-100 {
-    opacity: 1;
-}
-.d-block.w-100:hover {
     opacity: 0.8;
 }
-#dropdownMenu {
-    font-weight: bold;
+.d-block.w-100:hover {
+    opacity: 1;
 }
-.dropdown {
-    font-family: 'Prata', serif;
-}
-h1 {
-    font-size: 30pt;
-}
-h2 {
-    margin-left: 20px;
-}
-h1, h2 {
-    /* font-family: 'Special Elite', cursive; */
-    font-family: 'Prata', serif;
-    font-weight: bold;
+.link {
+    position: relative;
+    float: right;
+    margin-top: 10px;
     color: black;
+    font-family: 'Prata', serif;
+    z-index: 2;
 }
-.about {
-    margin-left: 0;
-}
-a{
+.link:hover {
     color: black;
     text-decoration: none;
+    font-weight: bold;
+}
+h1 {
+    text-align: left;
+    font-weight: bold;
+}
+h1, h2 {
+    font-family: 'Prata', serif;
+    margin-left: 20px;
+    font-weight: bold;
+    color: black;
+}
+.hFollow {
+    position: relative;
+    font-family: 'Prata', serif;
+    text-align: left;
+    margin: 20px 0px 0px 20px;
+    opacity: 0.6;
+}
+.reg-menu {
+    visibility: visible;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    right: 70px;
+    bottom: 20px;
+}
+.top, .projects, .bottom, .resume {
+    font-family: 'Prata', serif;
+    margin-left: 30px;
+    color: black;
+    line-height: 3.5rem;
+    opacity: 0.5;
+}
+.top:hover, .projects:hover,.bottom:hover, .resume:hover {
+    text-decoration: none;
+    color: white;
+    border-bottom: 3px solid black;
+    padding-bottom: 2rem;
+}
+#dropdownMenu {
+    visibility: hidden;
+    font-weight: bold;
+    float: right;
+    position: relative;
+    bottom: 80px;
+    right: 10px;
 }
 #contact:hover {
-    color: rgb(230, 51, 51);
+    /* color: rgb(230, 51, 51); */
+    color: silver;
     font-weight: normal;
 }
-.content {
+#content {
     margin: auto;
-    position: relative;
+    position: fixed;
+    width: 100%;
     display: block;
     text-align: center;
-    padding: 20px 0px 10px;
+    padding: 20px 0px 0px;
     font-size: 14pt;
     background-color: #4A7F80;
-}
-.btn.btn-dark {
-    display: block;
-    position: relative;
-    width: 25%;
-    margin: auto;
-    margin-bottom: 40px;
+    z-index: 15;
 }
 .me {
     position: relative;
@@ -98,26 +129,15 @@ a{
     padding: 10px 10px 26px;
     transform: rotate(2deg);
 }
-#name {
-    font-family: 'Crimson Text', serif;
-    font-size: 14pt;
-    font-weight: bold;
-    color: black;
-}
-#name:hover {
-    color: rgb(230, 51, 51);
-    font-weight: bold;
-    text-decoration: none;
-}
-.heading, .container {
-    margin-top: 25px;
+#about, .container {
+    margin-top: 15%;
 }
 .mainCont {
     position: relative;
-    margin: auto;
     width: 99%;
     background-color: #92FBFC;
     transform: rotate(-2deg);
+    margin: auto;
     padding: 30px;
 }
 .container {
@@ -140,19 +160,6 @@ td {
     width: 110px;
     text-align: center;
 }
-.container2 {
-    width:100%;
-    text-align: justify;
-}
-.projects {
-    height: 150px;
-    width: 150px;
-    display: block;
-    position: relative;
-    margin: 30px auto;
-    border: black solid 1px;
-    border-radius: 15px;
-}
 #contact {
     font-size: 10pt;
     color: black;
@@ -161,7 +168,7 @@ td {
     font-size: 10pt;
     text-align: center;
     width:25%;
-    position:fixed;
+    position: relative;
     margin: 0 auto;
     bottom: 0;
     left: 0;
@@ -173,48 +180,41 @@ td {
     width: 220px;
     height: 90px;
     position: relative;
-    margin: 5px auto;
+    margin: 5px auto 0px;
     font-family: 'Prata', serif;
     font-size: 10pt;
-    font-weight: bold;
-    text-align: center;
-    line-height: 1.5;
-    padding: 5px 0px 25px;
     color: black;
-}
-#project1, #project2, #project3, #project4, #project5, #project6, #project7, #project8 {
-    width: auto;
-    height: auto;
-    text-align: center;
-    margin: 25px auto 40px;
-    font-size: 10pt;
 }
 @media screen and (min-width:960px) { 
     h2 {
-        font-size: 18pt;
         margin-left: 70px;
     }
-    .projects {
-        height: 225px;
-        width: 225px;
-        display: block;
-        position: relative;
-        margin: 10px auto;
-        border-radius: 15px;
-    }
-    #project1, #project3, #project5, #project7 {
-        float: left;
-        margin-left: 250px;
-        margin-top: 50px;
-    }
-    #project2, #project4, #project6, #project8 {
-        float: right;
-        margin-right: 250px;
-        margin-top: 50px;
-    }
-
 }
-@media screen and (min-width:445px) and (max-width:940px) {
+@media screen and (max-width: 940px) {
+    #about {
+        margin-top: 30%;
+    }
+    #dropdownMenu {
+        visibility: visible;
+        font-weight: bold;
+        float: right;
+        position: relative;
+        bottom: 80px;
+        right: 10px;
+    }
+    .dropdown {
+        font-family: 'Prata', serif;
+    }
+    .reg-menu {
+        visibility: hidden;
+    }
+}
+@media screen and (min-width:720px) and (max-width:940px) {
+    #about {
+        margin-top: 20%;
+    }
+}
+@media screen and (min-width:500px) and (max-width:940px) {
     #me {
         padding: 15px 0px 25px 10px;
         /* padding-bottom: 0px; */
@@ -232,38 +232,20 @@ td {
         font-size: 16pt;
     }
 }
-@media screen and (max-width:425px) {
-    .heading {
+@media screen and (max-width:495px) {
+    #about {
         margin-left: 10px;
-    }
-    .container, .container2 {
-        clear: both;
-        width:auto;
-        margin: auto;
+        margin-top: 40%;
     }
     .container {
         width: 90%;
+        margin: auto;
     }
     .mainCont, .carouselCont {
         width: 94%;
     }
     #carouselCaptions {
         width: 80%;
-    } 
-    .projects {
-        height: 150px;
-        width: 150px;
-        display: block;
-        position: relative;
-        left: 0;
-        right: 0;
-        border-radius: 15px;
-    }
-    #project1, #project3, #project5, #project7 {
-        margin-left: 5px;
-    }
-    #project2, #project4, #project6, #project8 {
-        margin-right: 0px;
     }
     .fas, .fab {
         font-size: 16pt;

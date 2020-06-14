@@ -15,25 +15,33 @@
 </head>
 <body>
 
-        <div class="content">
+        <div id="content">
         
             <h1>Ramon Barajas</h1>
-                    <!--Links to other portfolio pages-->
+            <p class="hFollow">Full Stack Developer</p>
+
+            <ol class="reg-menu">
+              <ul><a class="top" href="#about">Home</a></ul>
+              <ul><a class="projects" href="#carouselCaptions">Projects</a></ul>
+              <ul><a class="bottom" href="#contact">Contact</a></ul>
+              <ul><a class="resume" href="./images/devres.pdf" target="_blank" download="ramonResume">Resume</a></ul>
+            </ol>
+
+            <!--Links to other portfolio pages-->
             <div class="dropdown">
-                <button class="btn dropdown-toggle" type="button" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Menu
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenu">
-                    <a class="dropdown-item" href="index.html">Home</a>
-                    <a class="dropdown-item" href="portfolio.html">Portfolio</a>
-                    <a class="dropdown-item" role="button" href="./images/devres.pdf" target="_blank" download="ramonResume">Download Resume</a>
-                </div>
+              <button class="btn dropdown-toggle" type="button" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-bars"></i></button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenu">
+                  <a class="dropdown-item" href="#about">Home</a>
+                  <a class="dropdown-item" href="#carouselCaptions">Portfolio</a>
+                  <a class="dropdown-item" href="#contact">Contact</a>
+                  <a class="dropdown-item" role="button" href="./images/devres.pdf" target="_blank" download="ramonResume">Resume</a>
+              </div>
             </div>
         </div>
 
         <br>
 
-        <h2 class="heading">About Me</h2>
+        <h2 id="about">About Me</h2>
 
       <div class="mainCont">
           <div class="container">
@@ -65,6 +73,7 @@
                         <td>MongoDB</td>
                         <td>Mongoose</td>
                         <td>AWS S3</td>
+                        <td>Python</td>
                       </tr>
                     </tbody>
                   </table>
@@ -75,16 +84,19 @@
       <div class="carouselCont">
         <div id="carouselCaptions" class="carousel slide" data-ride="carousel">
           <h2 class="about">Projects</h2>
-          <!-- <ol class="carousel-indicators">
+          <ol class="carousel-indicators">
             <li data-target="#carouselCaptions" data-slide-to="0" class="active"></li>
             <li data-target="#carouselCaptions" data-slide-to="1"></li>
             <li data-target="#carouselCaptions" data-slide-to="2"></li>
-          </ol> -->
+            <li data-target="#carouselCaptions" data-slide-to="3"></li>
+          </ol>
           <div class="carousel-inner" >
 
             <div class="carousel-item active">
               <h5 class="project">AppRx</h5>
               <a href="https://apprx.herokuapp.com/" target="_blank"><img src="images/apprx.png" class="d-block w-100" alt="..."></a>
+              <p class="description">Drug reference / medication reconcilliation app utilizing React, Express, Node, Mongoose, CSS, and OpenFDA API to search meds and save custom notes for each med.</p>
+              <a class="link" href="" target="_blank">View Code</a>
               <div class="carousel-caption d-none d-md-block">
               </div>
             </div>
@@ -92,6 +104,17 @@
             <div class="carousel-item">
               <h5 class="project">Toby</h5>
               <a href="https://toby-mgmt.herokuapp.com/" target="_blank"><img src="images/toby.png" class="d-block w-100" alt="..." ></a>
+              <p class="description">MERN app for small businesses to manage employee information. Uses Sequelize, JavaScript, React, Node, Express, AWS S3, Passport, & Bcrypt.</p>
+              <a class="link" href="" target="_blank">View Code</a>
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <h5 class="project">Duh! Travel</h5>
+              <a href="https://ramonb621.github.io/Project1/" target="_blank"><img src="images/duh.png" class="d-block w-100" alt="..."></a>
+              <p class="description">Create a travel repertoire using Eventbrite, Google Places and Google Maps API's based on whichever location you choose. You can even input custom events with this front end application.</p>
+              <a class="link" href="https://github.com/ramonb621/Project1" target="_blank">View Code</a>
               <div class="carousel-caption d-none d-md-block">
               </div>
             </div>
@@ -99,6 +122,8 @@
             <div class="carousel-item">
               <h5 class="project">HelpFull</h5>
               <a href="https://mkdr-project2.herokuapp.com/" target="_blank"><img src="images/Helpfull.png" class="d-block w-100" alt="..."></a>
+              <p class="description">A registration app utilizing Sequelize, Javascript, Node, Express, Bootstrap, CSS and OpenFema API for businesses to offer disaster relief services.</p>
+              <a class="link" href="" target="_blank">View Code</a>
               <div class="carousel-caption d-none d-md-block">
               </div>
             </div>
@@ -118,9 +143,7 @@
         </div>
 
       </div>
-
-          <a class="btn btn-dark" role="button" href="./images/devres.pdf" target="_blank" download="ramonResume">Download Resume</a>
-    
+   
     
     <footer class="footer">
         <a id="contact" href="https://github.com/ramonb621" target="_blank"><i class="fab fa-github"></i></a>
