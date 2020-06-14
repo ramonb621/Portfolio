@@ -214,6 +214,7 @@ td {
         position: relative;
         bottom: 80px;
         right: 10px;
+        border-color: black;
     }
     .dropdown {
         font-family: 'Prata', serif;
