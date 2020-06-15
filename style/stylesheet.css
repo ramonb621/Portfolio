@@ -86,7 +86,7 @@ body {
     text-decoration: none;
     color: white;
     border-bottom: 3px solid black;
-    padding-bottom: 2rem;
+    padding-bottom: 2.15rem;
 }
 #dropdownMenu {
     visibility: hidden;
