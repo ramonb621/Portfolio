@@ -73,7 +73,7 @@ body {
     justify-content: center;
     margin: 0px;
     right: 70px;
-    bottom: 20px;
+    bottom: 25px;
 }
 .top, .projects, .bottom, .resume {
     font-family: 'Prata', serif;
@@ -175,7 +175,7 @@ td {
     width:25%;
     position: relative;
     margin: 0 auto;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
     bottom: 0;
     left: 0;
     right:0;
@@ -187,7 +187,7 @@ td {
     text-align: center;
     font-size: 14pt;
     border-top: 2px solid grey;
-    padding: 10px 0px;
+    padding-top: 10px;
 }
 .description {
     width: 65%;
@@ -203,7 +203,7 @@ td {
         margin-left: 70px;
     }
 }
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 960px) {
     #about {
         margin-top: 30%;
     }
