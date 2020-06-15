@@ -212,8 +212,8 @@ td {
         font-weight: bold;
         float: right;
         position: relative;
-        bottom: 80px;
-        right: 10px;
+        bottom: 30px;
+        right: 15px;
         border-color: black;
     }
     .dropdown {
@@ -251,6 +251,9 @@ td {
         margin-left: 10px;
         margin-top: 40%;
     }
+    #about, .about {
+        font-size: 28pt;
+    }
     .container {
         width: 90%;
         margin: auto;
@@ -263,5 +266,11 @@ td {
     }
     .fas, .fab {
         font-size: 16pt;
+    }
+    .skills {
+        font-size: 10pt;
+    }
+    #me {
+        font-size: 10pt;
     }
 }
