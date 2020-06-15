@@ -175,10 +175,10 @@ td {
     width:25%;
     position: relative;
     margin: 0 auto;
+    padding-bottom: 15px;
     bottom: 0;
     left: 0;
     right:0;
-    flex-shrink: 0;
     z-index: 3;
 }
 .c-right {
