@@ -257,6 +257,9 @@ td {
     }
 }
 @media screen and (max-width:495px) {
+    .main {
+        margin-top: 10%;
+    }
     #about {
         margin-left: 10px;
         /* margin-top: 40%; */
