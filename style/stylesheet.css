@@ -1,6 +1,9 @@
 /* font-family: 'Special Elite', cursive;
 font-family: 'Crimson Text', serif;
 font-family: 'Prata', serif; */
+html {
+    scroll-behavior: smooth;
+}
 body {
     height: 100%;
     margin: 0px;
@@ -26,6 +29,7 @@ body {
     font-family: 'Prata', serif;
 }
 .d-block.w-100 {
+    border-radius: 15px;
     opacity: 0.8;
 }
 .d-block.w-100:hover {
@@ -50,6 +54,7 @@ body {
     text-align: left;
     font-size: 36pt;
     font-weight: bold;
+    margin-top: 6%;
 }
 #about, .about {
     font-size: 32pt;
@@ -73,7 +78,7 @@ body {
     justify-content: center;
     margin: 0px;
     right: 70px;
-    bottom: 25px;
+    bottom: 5px;
 }
 .top, .projects, .bottom, .resume {
     font-family: 'Prata', serif;
@@ -86,7 +91,7 @@ body {
     text-decoration: none;
     color: white;
     border-bottom: 3px solid black;
-    padding-bottom: 2.25rem;
+    padding-bottom: 1rem;
 }
 #dropdownMenu {
     visibility: hidden;
@@ -107,7 +112,7 @@ body {
     width: 100%;
     display: block;
     text-align: center;
-    padding: 20px 0px 0px;
+    padding: 25px 0px 0px;
     font-size: 16pt;
     background-color: #4A7F80;
     z-index: 15;
@@ -118,8 +123,9 @@ body {
     width: 135px;
     height: 190px;
     margin: 12px 10px 5px 10px;
-    border: solid black 1px;
-    border-radius: 15px;
+    /* border: solid black 1px; */
+    /* border-radius: 15px; */
+    border-radius: 50%;
     transform: rotate(2deg);
     z-index: 1;
 }
@@ -134,9 +140,9 @@ body {
     padding: 10px 10px 26px;
     transform: rotate(2deg);
 }
-#about, .container {
+/* #about, .container {
     margin-top: 15%;
-}
+} */
 .mainCont {
     position: relative;
     width: 99%;
@@ -201,18 +207,19 @@ td {
 @media screen and (min-width:960px) { 
     #about {
         margin-left: 70px;
+        margin-top: 5%;
     }
 }
 @media screen and (max-width: 960px) {
     #about {
-        margin-top: 30%;
+        margin-top: 10%;
     }
     #dropdownMenu {
         visibility: visible;
         font-weight: bold;
         float: right;
         position: relative;
-        bottom: 30px;
+        bottom: 15px;
         right: 15px;
         border-color: black;
     }
@@ -229,6 +236,9 @@ td {
     }
 }
 @media screen and (min-width:500px) and (max-width:940px) {
+    .main {
+        margin-top: 10%;
+    }
     #me {
         padding: 15px 0px 25px 10px;
         /* padding-bottom: 0px; */
@@ -249,7 +259,7 @@ td {
 @media screen and (max-width:495px) {
     #about {
         margin-left: 10px;
-        margin-top: 40%;
+        /* margin-top: 40%; */
     }
     #about, .about {
         font-size: 28pt;
