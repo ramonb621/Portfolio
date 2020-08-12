@@ -13,12 +13,11 @@ body {
 }
 .background {
     position: fixed;
-    background-image: url("../images/la.jpg");
-    /* width: 100%; */
-    /* filter: grayscale(); */
-    background-size: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     opacity: 90%;
-    background-position: center;
     z-index: -1;
 }
 .carouselCont {
@@ -205,6 +204,7 @@ td {
     text-align: center;
     font-size: 14pt;
     padding-top: 10px;
+    color: black;
 }
 .description {
     width: 65%;
