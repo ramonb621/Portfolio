@@ -14,8 +14,9 @@ body {
 .background {
     position: fixed;
     background-image: url("../images/la.jpg");
-    width: 100%;
+    /* width: 100%; */
     /* filter: grayscale(); */
+    background-size: auto;
     opacity: 90%;
     background-position: center;
     z-index: -1;
